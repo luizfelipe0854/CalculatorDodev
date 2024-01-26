@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: auto;
+  background-color: gray;
+  padding: 20vh 20vw;
+}
+
+.calculator-content{
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.section-1{
+  height: 80px;
+  width: 400px;
+  text-align: center;
+}
+
+h1{
+  color: #00BFFF;
+}
+
+.result-content{
+  background-color: white;
+  height: 40px;
+  width: 380px;
+  margin: auto;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.result{
+  font-size: 30px;
+}
+
+.input-content{
+  height: 40px;
+}
+
+.input-content>h5{
+  color: #FBFBFB;
+}
+
+.inputs{
+  height: 40px;
+  width: 380px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numero1, .numero2{
+  width: 170px;
+  height: 20px;
+  text-align: end;
+  margin: auto 0px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+}
+
+.buttons{
+  height: 40px;
+  width: 380px;
+  margin: 10px auto;
+}
+
+.button{
+  height: 40px;
+  width: 47px;
+  margin: 0 4px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FBFBFB;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-content{
+  height: 40px;
+  width: 380px;
+  margin: 10px auto;
+}
+
+.btn-clear{
+  width: 212px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #FBFBFB;
+  background-color: #00BFFF;
+}
